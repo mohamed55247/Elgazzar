@@ -22,7 +22,7 @@ header{
 ul li{
     display: inline-block;
     padding:0 5px;
-    font-size:10px;
+    font-size:20px;
 }
 
 ul li a:hover{
@@ -35,7 +35,7 @@ a{
 }
 
 .logo{
-    width:50px;
+    width:90px;
 }
 
 header div{
@@ -49,18 +49,20 @@ header div{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    top:100px;
 }
 
 .img{
-    width: 100px;
+    width: 200px;
 }
 h2{
-    font-size:15px;
+    font-size:50px;
     margin-bottom:10px;
 }
 
 p{
-    font-size:8px;
+    font-size:25px;
 }
 
 .content-details{
@@ -69,15 +71,16 @@ p{
 
 .btn{
     color:black;
-    font-size:8px;
+    font-size:25px;
     padding:8px 15px;
-    margin-top:10px;
+    margin-top:15px;
     border-radius: 20px;
     background-color: #fff;
     display: block;
-    width: 50px;
+    width: 160px;
     font-weight:bold ;
     transition: 0.5s;
+    text-align: center;
 }
 
 .btn:hover{
@@ -85,7 +88,7 @@ p{
 }
 
 footer img{
-    width: 20px;
+    width: 60px;
     transition: 0.5s;
 }
 
@@ -96,12 +99,13 @@ footer a{
 
 footer{
     position:absolute;
-    bottom:20px;
+    bottom:50px;
     left:50%;
     transform: translateX(-50%);
 }
 
 footer img:hover{
     transform:scale(1.1);
+    cursor: pointer;
     
 }
